@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Skills & Abilities</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding:0;
+        }
+        header {
+            width:100%;
+            background-color: #000000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 20px;
+            transition: background-color 0.3s;
+            margin: 0 30px;
+        }
+        nav a:hover{
+            background-color: #b9b113e6;
+            padding: 10px 20px;
+        }
+        section.skill{
+            padding: 5px 25px;
+            width: 100%;
+            
+        }
+        section.facilities{
+            background-image: url('');
+            background-color: #F0E5D2;
+        }
+        .row{
+            margin-top: 5%;
+            display: flex;
+            justify-content:space-evenly;
+        }
+        .skill-col{
+            flex-basis: 31%;
+            background:#fff3f3;
+            border-radius: 5px;
+            padding: 5px;
+            box-sizing: border-box;
+            transition: 0.5s;
+        }
+        h2{
+            padding:15px 25px;
+            margin: 0;
+        }
+        h3{
+            text-align: center;
+            font-weight: 600;
+        }
+        .skill-col:hover{
+            box-shadow: 0 0 20px  0px rgba(0,0,0,0.2);
+        }
+        .row1{
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .skill-col1{
+            flex-basis: 31%;
+            background:#fff3f3;
+            border-radius: 5px;
+            margin-bottom: 5%;
+            padding: 10px 5px;
+            box-sizing: border-box;
+            transition: 0.5s;
+        }
+        .html{
+            width:100%;
+        }
+        .facilities{
+            width: 100%;
+            height: fit-content;
+            padding: 20px;
+        }
+        .facilities .row .facilities-col{
+            width:30%;
+            padding:10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .facilities .row .facilities-col img{
+            width:25vw;
+            border-radius: 10px;
+            height:15vw;
+        }
+        .facilities-col img {
+    width: 25vw;
+    border-radius: 10px;
+    height: 15vw;
+    transition: filter 0.3s; /* Add transition for smooth effect */
+}
+
+.facilities-col img:hover {
+    filter: brightness(70%); /* Increase brightness on hover */
+    /* Alternatively, you can add a border */
+    /* border: 2px solid #b9b113e6; */
+}
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a style="float: left; color:white; font-size:30px" href="index.html">
+            <i class="fas fa-home"></i>
+        </a>
+        <h1>Skills</h1>
+    </header>
+    <nav>
+        <a href="academics.html">Academics</a>
+        <a href="skills.html">Skills</a>
+        <a href="hobbies&strengths.html">Hobbies & Strengths</a>
+        <a href="achivements.html">Achivements</a>
+        <a href="personalinfo.html">Personal Profile</a>
+    </nav>
+    <h2>Technical skills</h2>
+    <section class="facilities">
+        <h1><center>Programming Languages</center></h1>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/java_interface.jpg">
+                <h3><center>Java</center></h3>
+                <p>Java is a widely-used programming language for coding web applications. It has been a popular choice among developers</p>
+            </div>
+            <div class="facilities-col">
+                <img src="https://w0.peakpx.com/wallpaper/658/609/HD-wallpaper-python-glitter-logo-programming-language-grid-metal-background-python-creative-programming-language-signs-python-logo.jpg">
+                <h3><center>Python</center></h3>
+                <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability </p>
+            </div>
+            <div class="facilities-col">
+                <img src="https://w7.pngwing.com/pngs/414/85/png-transparent-nodejs-javascript-runtime-backend-node-js-logo-3d-icon.png">
+                <h3><center>JavaScript</center></h3>
+                <p>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia. </p>
+            </div>
+        </div>
+    </section>
+    <section class="facilities">
+        <h1><center>Web Development</center></h1>
+        <div class="row">
+            <div class="facilities-col">
+                <img  src="https://st3.depositphotos.com/24664374/35274/i/450/depositphotos_352749710-stock-photo-html-css-logos-programming-languages.jpg">
+                <h3><center>HTML/CSS</center></h3>
+                <p>HTML & CSS are fundamental programming languages used in creating and styling web pages</p>
+            </div>
+            <div class="facilities-col">
+                <img src="https://wallpapercave.com/wp/wp6606918.jpg">
+                <h3><center>Node.Js</center></h3>
+                <p>Node. js is an open-source, cross-platform JavaScript runtime environment and library for running web applications</p>
+            </div>
+            <div class="facilities-col">
+                <img src="https://shethink.in/wp-content/uploads/2021/07/react.js-img.png">
+                <h3><center>React.JS</center></h3>
+                <p>React. js is a front-end library that has gradually become the go-to framework for modern web development</p>
+            </div>
+        </div>
+    </section>
+    <section class="facilities">
+        <h1><center>Database Management</center></h1>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="https://media.istockphoto.com/id/1368134678/photo/hand-pressing-sql-button-on-virtual-screens.jpg?s=612x612&w=0&k=20&c=RFJyzNl-jcxZxzkdga_iPMoNbBx3qxPxkXYQ0o5UzjE=">
+                <h3><center>SQL</center></h3>
+                <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png">
+                <h3><center>MongoDB</center></h3>
+                <p>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia. </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
